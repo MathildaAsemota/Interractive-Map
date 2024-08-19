@@ -412,6 +412,7 @@ import pandas as pd
 import numpy as np
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H4('View Compound Prevalence by Zipcode'),
