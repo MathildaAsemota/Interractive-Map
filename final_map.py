@@ -404,7 +404,7 @@ borough_mapping = {
 
 """#Plotly App"""
 
-# !pip install dash
+pip install dash
 
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
