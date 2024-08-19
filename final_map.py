@@ -12,9 +12,9 @@ import numpy as np
 
 from collections import Counter
 
-groundWater = pd.read_excel('/content/concatenated_grd_wtr.xlsx')
+groundWater = pd.read_excel('concatenated_grd_wtr.xlsx')
 
-surfaceWater = pd.read_excel('/content/surface_wtr.xlsx')
+surfaceWater = pd.read_excel('surface_wtr.xlsx')
 
 groundWater = groundWater[['Ionic PFAS','Concentration with unit','year','Location']]
 
@@ -22,7 +22,7 @@ surfaceWater = surfaceWater[['Ionic PFAS','Concentration with unit','year','Loca
 
 """#Prepare Drinking Water DF"""
 
-drinkingWater = pd.read_excel('/content/Drinking_Water.xlsx')
+drinkingWater = pd.read_excel('Drinking_Water.xlsx')
 
 drinkingWater = drinkingWater[['Ionic PFAS','Concentration with unit','year','Location']]
 
